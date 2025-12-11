@@ -24,4 +24,39 @@
     margin-left: 10px;
     margin-bottom: 10px;
     height: 300px;
+    background-color: antiquewhite;
+    text-align: center;
+    color: black;
+}
+.project-image{
+    width: 100%;
+    height: 200px;
+}
+.footer{
+    margin-top: 10px;
+    height: 150px;
+    background-color: aqua;
+    color: black;
+}
+.footer-item{
+    float: left;
+    width: 33%;
+    margin-top: 10px;
+}
+.link{
+    text-decoration: none;
+    color: red;
+    display: block;
+}
+
+@media screen and (max-width: 1000px){
+    .hero{
+        color: black;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .hero{
+        color: brown;
+    }
 }
