@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.hero{
+
+.hero {
     background-image: url('images/bg2.jpg');
     height: 300px;
     background-repeat: no-repeat;
@@ -11,13 +12,15 @@
     background-position: center;
     overflow: hidden;
     color: white;
-}   
-.project{
+}
+
+.project {
     margin-top: 20px;
     overflow: hidden;
     width: 100%;
 }
-.project-item{
+
+.project-item {
     float: left;
     width: 32%;
     border: 1px solid;
@@ -28,35 +31,101 @@
     text-align: center;
     color: black;
 }
-.project-image{
+
+.project-image {
     width: 100%;
     height: 200px;
 }
-.footer{
+
+.footer {
     margin-top: 10px;
     height: 150px;
     background-color: aqua;
     color: black;
 }
-.footer-item{
+
+.footer-item {
     float: left;
     width: 33%;
     margin-top: 10px;
 }
-.link{
+
+.link {
     text-decoration: none;
     color: red;
     display: block;
 }
 
-@media screen and (max-width: 1000px){
-    .hero{
-        color: black;
+@media screen and (max-width: 650px) {
+    .hero {
+        height: 250px;
     }
 }
 
-@media screen and (max-width: 900px){
-    .hero{
-        color: brown;
+@media screen and (max-width: 600px) {
+    .hero {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .hero {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 748px) {
+    .project-item {
+        width: 235px;
+    }
+}
+@media screen and (max-width: 735px) {
+    .project-item {
+        width: 233px;
+    }
+}
+@media screen and (max-width: 728px) {
+    .project-item {
+        width: 230px;
+    }
+}
+@media screen and (max-width: 720px) {
+    .project-item {
+        width: 220px;
+    }
+}
+@media screen and (max-width: 690px) {
+    .project-item {
+        width: 215px;
+    }
+}
+@media screen and (max-width: 675px) {
+    .project-item {
+        width: 210px;
+    }
+}
+@media screen and (max-width: 660px) {
+    .project-item {
+        width: 205px;
+    }
+}
+@media screen and (max-width: 645px) {
+    .project-item {
+        width: 200px;
+    }
+}
+@media screen and (max-width: 630px) {
+    .project-item {
+        width: 190px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .project-item {
+        width: 185px;
+    }
+}
+@media screen and (max-width: 885px) {
+    .project-item {
+        width: 280px;
     }
 }
